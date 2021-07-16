@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    
+    width: 100%;
+    height: 100%;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(3, 3, 3, 0.603);
+}
+#navigator_list{
+    z-index: 100;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -75px;
+    float: right;
+    width: 480px;
+    height: 50px;
+    background-color: rgba(65, 105, 225, 0);
+}
+#navigator_list .list_buttons{
+    list-style-type: none;  
+}
+#navigator_list .list_buttons li{
+    display: inline;
+}
+
+#navigator_list .list_buttons li a{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-decoration: none;
+    height: 20px;
+    width: 120px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5ch;
+}
+
+#navigator_list .list_buttons li a:hover{
+    color: #333F6A;
+    -webkit-transition:all .5s ease-in-out;
+}
+.logo_EA{
+    margin-top: -10px;
+    margin-left: 50px;
+    z-index: 100;
+    position: relative;
+    width: 120px;
+    height: 100px;
+}
+.bar_text{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -68px;
+    z-index: 120;
+    width: 3px; 
+    height: 30px;
+    background-color: #333F6A;
+}
+.block_text{
+ 
+    margin-top: 27px;
+    z-index: 120;
+    height: 30px;
+    width: 500px;
+    position: absolute;
+    display: inline-block;
+
+}
+.block_text h1{
+    color: beige;
+    font-size: 90%;
+}
+.block_text p{
+    margin-top: 2px;
+    color: rgb(117, 117, 117);
+    font-size: 75%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.sections {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ari_pods,
+.beats,
+.apple_watch,
+.galaxy_buds {
+    width: 100%;
+    height: 100vh;
+    padding: 0 80px;
+}
+
+.section_container {
+    
+    width: 1470px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ari_pods {
+    background-color: #1C1C1C;
+}
+
+.beats {
+    background-color: rgb(255, 255, 255);
+}
+
+.apple_watch {
+    background-color: #92B7FF;
+}
+
+.galaxy_buds {
+    background-color: #000;
+}
+
+.image {
+    width: 400px;
+}
+
+.image > img {
+    width: 100%;
+}
+.imagen {
+    width: 950px;
+}
+
+.imagen > img {
+    width: 100%;
+}
+
+.text {
+    width: 550px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: bolder;
+
+}
+
+.text > .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px; 
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.ari_pods > .section_container > .text {
+    color: #fff;
+}
+
+.text > .description {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.beats > .section_container > .image {
+    order: 2;
+    width: 500px;
+}
+
+.beats > .text {
+    color: #000;
+}
+
+.galaxy_buds > .section_container > .text > .title {
+    font-size: 45px;
+}
+
+.galaxy_buds > .section_container > .text > .title > span {
+    font-weight: 500;
+}
+
+.galaxy_buds > .section_container > .text {
+    color: #fff;
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite, 
+.swiper-container-vertical>.swiper-pagination-progressbar {
+    position: absolute;
+    left: 95%;
+    top: 25%;
+    height: 50%;
+
+}
