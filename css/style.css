@@ -5,12 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+strong{
+    color: #4ac9da;;
+}
 html,
 body {
     
     position: relative;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -37,7 +40,7 @@ header{
     z-index: 100;
     position: absolute;
     margin-left: 65%;
-    margin-top: -75px;
+    margin-top: -50px;
     float: right;
     width: 480px;
     height: 50px;
@@ -69,27 +72,28 @@ header{
     -webkit-transition:all .5s ease-in-out;
 }
 .logo_EA{
-    margin-top: -10px;
-    margin-left: 50px;
+    margin-top: 23px;
+    margin-left: 40px;
     z-index: 100;
     position: relative;
-    width: 120px;
-    height: 100px;
+    width: 84px;
+    height: 36px;
 }
 .bar_text{
     position: absolute;
-    margin-left: 160px;
-    margin-top: -68px;
+    margin-left: 140px;
+    margin-top: -37px;
     z-index: 120;
     width: 3px; 
     height: 30px;
     background-color: #333F6A;
 }
 .block_text{
- 
+    -webkit-transition:all .9s ease-in-out;
     margin-top: 27px;
     z-index: 120;
     height: 30px;
+    margin-left: 25px;
     width: 500px;
     position: absolute;
     display: inline-block;
@@ -131,10 +135,10 @@ header{
     align-items: center;
 }
 
-.ari_pods,
-.beats,
-.apple_watch,
-.galaxy_buds {
+.welcome,
+.software,
+.hardware,
+.prototype {
     width: 100%;
     height: 100vh;
     padding: 0 80px;
@@ -149,30 +153,32 @@ header{
     align-items: center;
 }
 
-.ari_pods {
+.welcome {
     background-color: #1C1C1C;
 }
 
-.beats {
+.software {
     background-color: rgb(255, 255, 255);
 }
 
-.apple_watch {
+.hardware {
     background-color: #92B7FF;
 }
 
-.galaxy_buds {
+.prototype {
     background-color: #000;
 }
 
 .image {
-    width: 400px;
+    -webkit-transition:all .9s ease-in-out;
+    width: 500px;
 }
 
 .image > img {
     width: 100%;
 }
 .imagen {
+    -webkit-transition:all .9s ease-in-out;
     width: 950px;
 }
 
@@ -182,20 +188,20 @@ header{
 
 .text {
     width: 550px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
     text-align: left;
     font-weight: bolder;
 
 }
 
 .text > .title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 42px; 
     font-weight: 100;
     margin-bottom: 50px;
 }
 
-.ari_pods > .section_container > .text {
+.welcome > .section_container > .text {
     color: #fff;
 }
 
@@ -204,24 +210,24 @@ header{
     font-weight: 100;
 }
 
-.beats > .section_container > .image {
+.software > .section_container > .image {
     order: 2;
     width: 500px;
 }
 
-.beats > .text {
+.software > .text {
     color: #000;
 }
 
-.galaxy_buds > .section_container > .text > .title {
+.prototype > .section_container > .text > .title {
     font-size: 45px;
 }
 
-.galaxy_buds > .section_container > .text > .title > span {
+.prototype > .section_container > .text > .title > span {
     font-weight: 500;
 }
 
-.galaxy_buds > .section_container > .text {
+.prototype > .section_container > .text {
     color: #fff;
 }
 
