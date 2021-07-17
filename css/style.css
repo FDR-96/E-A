@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 strong{
-    color: #4ac9da;;
+    color: #4ac9da;
 }
 html,
 body {
-    
+
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -26,7 +26,7 @@ body {
 }
 
 .swiper-container {
-    
+
     width: 100%;
     height: 100%;
 }
@@ -47,7 +47,7 @@ header{
     background-color: rgba(65, 105, 225, 0);
 }
 #navigator_list .list_buttons{
-    list-style-type: none;  
+    list-style-type: none;
 }
 #navigator_list .list_buttons li{
     display: inline;
@@ -68,7 +68,7 @@ header{
 }
 
 #navigator_list .list_buttons li a:hover{
-    color: #333F6A;
+    color: #4ac9da;
     -webkit-transition:all .5s ease-in-out;
 }
 .logo_EA{
@@ -84,7 +84,7 @@ header{
     margin-left: 140px;
     margin-top: -37px;
     z-index: 120;
-    width: 3px; 
+    width: 3px;
     height: 30px;
     background-color: #333F6A;
 }
@@ -129,7 +129,7 @@ header{
 }
 
 .sections {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,7 +145,7 @@ header{
 }
 
 .section_container {
-    
+
     width: 1470px;
     margin: 0 auto;
     display: flex;
@@ -154,16 +154,21 @@ header{
 }
 
 .welcome {
+    background-repeat: no-repeat;
     background-size: 120%;
     background-image: url('https://i.ibb.co/QYbd78p/fondowelcome.jpg');
 }
 
 .software {
+    
+    background-repeat: no-repeat;
     background-size: 120%;
     background-image: url('https://i.ibb.co/6Fj52QK/fondosoftware.jpg');
 }
 
 .hardware {
+    
+    background-repeat: no-repeat;
     background-size: 120%;
     background-image: url('https://i.ibb.co/XJspx9W/fondohardware.jpg');
 }
@@ -173,14 +178,14 @@ header{
 }
 
 .image {
-    width: 500px;
+    width: 25vw;
 }
 
 .image > img {
     width: 100%;
 }
 .imagen {
-    width: 950px;
+    width: 45vw;
 }
 
 .imagen > img {
@@ -198,7 +203,7 @@ header{
 
 .text > .title {
     font-family: 'Mukta', sans-serif;
-    font-size: 42px; 
+    font-size: 42px;
     font-weight: 100;
     margin-bottom: 50px;
 }
@@ -233,7 +238,7 @@ header{
     color: #fff;
 }
 
-.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite, 
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
 .swiper-container-vertical>.swiper-pagination-progressbar {
     position: absolute;
     left: 95%;
